@@ -31,7 +31,7 @@ vagrant halt
 
 ## Built With
 
-* [Ansible](https://www.ansible.com/) - The web framework used
+* [Ansible](https://www.ansible.com/)
 * [Vagrant](https://www.vagrantup.com/) 
 * [Postgresql](https://www.postgresql.org/)
 * [MongoDB](https://www.mongodb.com/)
@@ -47,7 +47,7 @@ Contributions are always welcomed!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
