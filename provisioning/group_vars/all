@@ -1,0 +1,9 @@
+---
+nodejs_version: '4.x'
+locale: 'en_AU.UTF-8'
+db_names:
+  - defaultdb
+db_user: defaultdb
+db_password: defaultdb
+db_host: 127.0.0.1
+db_port: 5432

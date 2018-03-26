@@ -1,0 +1,8 @@
+- hosts: all
+  sudo: yes
+  roles:
+    - { role: common }
+    - { role: geerlingguy.nodejs }
+    - { role: postgres, db_names: ["project", "project_test"] }
+    - {role: mongodb }
+    - { role: vagrant }
