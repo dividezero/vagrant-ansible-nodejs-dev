@@ -45,8 +45,6 @@ Contributions are always welcomed!
 
 * **Hazlan Rozaimi** - *Initial work* - [dividezero](https://github.com/dividezero)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
