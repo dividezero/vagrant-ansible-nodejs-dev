@@ -1,78 +1,49 @@
 # Vagrant Ansible NodeJS Dev 
 
-One Paragraph of project description goes here
+This is created to allow devs to have a vm set up automagically for development that is isolated from other projects
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
 
 ### Installing
 
 A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
+1. Install [Vagrant](http://downloads.vagrantup.com/)
+2. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+3. Install [Ansible](http://www.ansibleworks.com/docs/intro_installation.html)
+
+Copy this in your dev folder and run 
 
 ```
-Give the example
-```
-
-And repeat
+vagrant up
 
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+SSH into the vm
 
 ```
-Give an example
+vagrant ssh
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+And kill it
 
 ```
-Give an example
+vagrant halt
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Ansible](https://www.ansible.com/) - The web framework used
+* [Vagrant](https://www.vagrantup.com/) 
+* [Postgresql](https://www.postgresql.org/)
+* [MongoDB](https://www.mongodb.com/)
+* [Nginx](https://nginx.org/en/)
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Contributions are always welcomed!
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Hazlan Rozaimi** - *Initial work* - [dividezero](https://github.com/dividezero)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -82,6 +53,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* [geerlingguy](https://github.com/geerlingguy) for his nodejs stuff. check his profile for so many ansible role examples!
